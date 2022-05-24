@@ -9,21 +9,48 @@
     --dark-bg-color: #2F303A;
 }
 
-/* Хедер */
-.header {
+/* Глобальные стили */
+
+body {
     background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
-.header-logo .first-part {
+/* Лого */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.accent {
     color: var(--main-active-color);
 }
 
-.header-logo .second-part {
+.header-logo {
     color: var(--text-heading-color);
 }
 
+.footer-logo {
+    color: var(--dark-bg-text);
+}
+
+/* Хедер */
+
 .nav-link {
     color: var(--text-heading-color);
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -34,6 +61,12 @@
 
 .nav-contact {
     color: var(--main-text-color);
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .nav-contact:hover,
@@ -42,46 +75,80 @@
 }
 
 /* Футер */
+
 .footer {
     background-color: var(--dark-bg-color);
 }
 
-.footer-logo .first-part {
-    color: var(--main-active-color);
-}
-
-.footer-logo .second-part {
-    color: var(--dark-bg-text);
-}
-
 .address-text {
     color: var(--dark-bg-text);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .address-contact {
     color: var(--dark-bg-contacts);
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
-/* Главная страница - Студия */
+.address-contact:hover,
+.address-contact:focus {
+    color: var(--main-active-color);
+}
+
+/* Main */
+
+.list {
+    list-style: none;
+}
+
+.title {
+    color: var(--text-heading-color);
+    
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
 
 /* Hero-Баннер */
 .hero {
     background-color: var(--dark-bg-color);
+
 }
 
 .hero-title {
     color: var(--dark-bg-text);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button {
     background-color: var(--main-active-color);
     color: var(--dark-bg-text);
+    cursor: pointer;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Особенности */
-.features {
-    background-color: var(--main-bg-color);
-}
 
 .features-title {
     color: transparent;
@@ -89,35 +156,44 @@
 
 .feature-title {
     color: var(--text-heading-color);
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .feature-text {
-    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
-/* Чем мы занимаемся */
-.activities {
-    background-color: var(--main-bg-color);
-}
-
-.activities-title {
-    color: var(--text-heading-color);
-}
+/* Чем мы занимаемся - оформлено с помощью классов title и list, раздел Main этого css-документа*/
 
 /* Команда */
+
 .team {
     background-color: var(--secondary-bg-color);
 }
 
 .member-name {
     color: var(--text-heading-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 .job-title {
-    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;    
+    text-align: center;
 }
 
-/* Страница Портфолио */
+/* Портфолио */
+
 .portfolio {
     background-color: var(--main-bg-color);
 }
