@@ -15,7 +15,7 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     letter-spacing: 0.03em;
 }
@@ -85,7 +85,6 @@ body {
     color: var(--dark-bg-text);
 
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -141,7 +140,7 @@ body {
     color: var(--dark-bg-text);
     cursor: pointer;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -164,7 +163,6 @@ body {
 }
 
 .feature-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -187,7 +185,6 @@ body {
 }
 
 .job-title {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;    
     text-align: center;
@@ -206,7 +203,7 @@ body {
     color: var(--text-heading-color);
     cursor: pointer;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -229,7 +226,6 @@ body {
 }
 
 .project-filter {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
